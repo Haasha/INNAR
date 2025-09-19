@@ -40,7 +40,7 @@ Experiment Configuration
 -------------------------------------------------------
 
 The experimentation pipeline can be customized using the following configuration dictionary:
-
+```python
 config = {
     "base_dir":"/kaggle/input/train-embedder",
     "test_dir":"/kaggle/input/novel16",
@@ -65,6 +65,7 @@ config = {
     "validation-27-unknown":['ATR_72_ASW','KC-767_Tanker','C-130_Hercules','B-2_Spirit','F-16_Falcon'],
     "test-16-Novel":['E-2_Hawkeye', 'C-295M_CASA_EADS', 'Su-37_Flanker']
 }
+```
 
 This configuration enables modification of:
 - Number of novel classes
